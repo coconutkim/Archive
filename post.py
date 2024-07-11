@@ -22,4 +22,6 @@ if inum[0]=="0" and inum[1]=="1":
     print(f"안녕하세요?{pos[inum[:3]]} 주민이시군요.")
 else:
     print("서울 주민이 아니십니다.")
+
+
     
