@@ -1,4 +1,3 @@
-# my codes
 ttime = input("주어진 시간:")
 study = input("하루 공부 시간:")
 ttime = int(ttime)
