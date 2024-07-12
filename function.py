@@ -9,7 +9,29 @@
 # print(f'더한 값은 {sum()}입니다.')
 
 def sum(a, b):
-    return a + b
+    sum = a+ b
+    return sum
 
 valSum = sum(2, 3)
 print(f'더한 값은 {valSum}입니다.')
+
+
+
+
+
+# 사이트 url을 출력하는 함수를 만드세요
+# (닷컴사이트)
+
+# 1. 함수명은 make_url입니다.
+# 2. url을 출력하세요.
+# 3. 사용은 다음과 같이 할 예정입니다.
+
+# url = make_url('naver')
+# print(f'url은 {url} 입니다.')
+
+def make_url(ut):
+    url = "www" + ut + ".com"
+    return url
+
+url = make_url('naver')
+print(f'URL은 {url} 입니다.')

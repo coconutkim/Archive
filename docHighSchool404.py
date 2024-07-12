@@ -13,9 +13,8 @@ print('='*40)
 print('학번  국어  영어  수학   총점  평균')
 print('-'*40)
 
-hakbun = 
-
-def scor(hakbun):
+hakbun = (1, 10)
+def score(hakbun):
        for i in range(1,hakbun+1):
               slist = score[str(i)]
               tot = slist[0]+slist[1]+slist[2];
