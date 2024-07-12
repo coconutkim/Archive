@@ -8,14 +8,17 @@ score = {"1":[80, 67, 98],
        "8":[80, 67, 98],
        "9":[80, 67, 98]}
 
-print('     <형설고등학교 3학년 기말고사 결과>')
+print('  <형설고등학교 3학년 기말고사 결과>')
 print('='*40)
-print('학번 국어 영어 수학 총점 평균')
+print('학번  국어  영어  수학   총점  평균')
 print('-'*40)
 
-for i in range(1,9+1):
-    slist = score[str(i)]
-    tot = slist[0]+slist[1]+slist[2];
-    ave = int(round(tot / 3, 0))
-    print(f'수학: {slist[0]}, 영어: {slist[1]}, 국어: {slist[2]}')
-    print(f'합계: {tot}, 평균: {ave}')
+hakbun = 
+
+def scor(hakbun):
+       for i in range(1,hakbun+1):
+              slist = score[str(i)]
+              tot = slist[0]+slist[1]+slist[2];
+              ave = int(round(tot / 3, 0))
+              print(f'{i}    {slist[0]}    {slist[1]}    {slist[2]}    {tot}    {ave}')
+ 
