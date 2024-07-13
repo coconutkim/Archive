@@ -1,10 +1,10 @@
-class_list = [cl for cl in range(1, 9+1)]
-print(class_list)
-print(round(94.77, 0))
+# class_list = [cl for cl in range(1, 9+1)]
+# print(class_list)
+# print(round(94.77, 0))
 import random
 import numpy
 # ran_list = [random.sample(range(60, 100), 3) for ran in range(27)]
-gimal = {i : random.sample(range(60, 100), 3) for i in range(1,10)}
+gimal = {i : random.sample(range(60, 100), 3) for i in range(1,9+1)}
 print(gimal)
 #for index, item in enumerate(gimal.items(), start=1) :
 print('학번', '국어', '영어', '수학', '총점', '평균')
