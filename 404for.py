@@ -14,3 +14,4 @@ for item in gimal.items() :
     #print(item)
     #space = 4
     print(f'{item[0]:4} {item[1][0]:3} {item[1][1]:4} {item[1][2]:3} {numpy.sum(item[1]):4} {int(round(numpy.average(item[1]),0)):3} ')
+#
