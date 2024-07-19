@@ -3,8 +3,14 @@ output = [[], [], []]
 
 # print('성공' if True else '실패')
 
+
 for number in numbers:
     output[(number-1)%3].append(number)
+
+
+
+for number in numbers:
+    output[(number+2)%3].append(number)
 
 print(output)
 
