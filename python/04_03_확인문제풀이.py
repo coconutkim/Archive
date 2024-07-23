@@ -2,15 +2,15 @@ key_list = ['name','hp','mp','level']
 value_list = ['기사',200,30,5]
 character = {}
 
-# for i in range(0,4):
-#     v = value_list[i]
-#     character[key_list[i]] = v
+for i in range(0,4):
+    v = value_list[i]
+    character[key_list[i]] = v
 
-# print(character)
+print(character)
 
-# for i, v in enumerate(key_list):
-#     character[v] = value_list[i]
-# print(character)
+for i, v in enumerate(key_list):
+    character[v] = value_list[i]
+print(character)
 
 i = 0
 for v in key_list:
@@ -23,7 +23,7 @@ limit = 10000
 i = 1
 
 
-# sum_value = 0
+sum_value = 0
 while sum_value <limit:
    
     sum_value              +=i
@@ -33,7 +33,7 @@ while sum_value <limit:
 
 print(f'{i}를 더할 때 {limit}을 넘으며 그때의 값은 {sum_value}입니다.')
 
-------------------------------------------------------
+# ------------------------------------------------------
 
 max_value = 0
 a = 0
