@@ -1,4 +1,10 @@
 # 2진수
+# Help on class int in module builtins:
+
+# class int(object)
+#  |  int([x]) -> integer
+#  |  int(x, base=10) -> integer
+
 output =  [i for i in range(1,101) if '{:b}'.format(i).count('0') == 1]
     
 for i in output:
