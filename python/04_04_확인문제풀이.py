@@ -1,15 +1,26 @@
 # 2진수
-# Help on class int in module builtins:
 
+# Help on class int in module builtins:
 # class int(object)
 #  |  int([x]) -> integer
 #  |  int(x, base=10) -> integer
+
+# 4가지 문제
+# 1. 1-100까지 찍어라
+# 2. 이진수 변환
+# 3. 0이 하나만 포함된 숫자를 찾고
+# 4. 누적합
 
 output =  [i for i in range(1,101) if '{:b}'.format(i).count('0') == 1]
     
 for i in output:
     print('{} : {}'.format(i,'{:b}'.format(i)))
 print('합계:', sum(output))
+
+# tot = 0
+# for i in output:
+#     tot+=i
+# print(tot)
 
 print('---------------------------------------')
 # 숫자의 종류
