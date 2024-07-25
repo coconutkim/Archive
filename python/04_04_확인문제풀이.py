@@ -27,6 +27,7 @@ print('---------------------------------------')
 li = [1,2,3,4,1,2,3,1,4,1,2,3]
 
 ouput = {i:li.count(i) for i in li}
+long = len(set(li))
 
 # for i in li:
 #     if i in ouput:
@@ -34,7 +35,7 @@ ouput = {i:li.count(i) for i in li}
 #     else:
 #         ouput[i] = 1
 
-
+print(long)
 print(ouput)
 
 print('------------------------------------')
@@ -92,6 +93,23 @@ for i in a:
         ouput[i] = li.count(i)
         
 print(ouput)
+
+# --------------------------------
+
+
+
+dna=input('염기 서열을 입력해주세요:')
+cnt = {}
+for i in range(0,len(dna),3):
+    codon = dna[i:i+3]
+    if len(codon) ==3:
+        if codon in cnt:
+            cnt[codon] = cnt[codon] + 1
+        else:
+            cnt[codon] = 1
+            
+            
+            
 
 print('--------------------------')
 
