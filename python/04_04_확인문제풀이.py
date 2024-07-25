@@ -97,7 +97,7 @@ print(ouput)
 # --------------------------------
 
 
-
+# 강사님 코드
 dna=input('염기 서열을 입력해주세요:')
 cnt = {}
 for i in range(0,len(dna),3):

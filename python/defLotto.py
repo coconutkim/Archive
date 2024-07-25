@@ -12,3 +12,5 @@ lottoCnt = input("how many do you need? ")
 
 for i in range(int(lottoCnt)):
     oneline()
+    
+    
