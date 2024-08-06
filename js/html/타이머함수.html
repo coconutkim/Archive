@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script>
+
+        let i = 10;
+
+        setInterval(
+            function () {
+
+                window.document.write(i);
+                i--;
+                window.document.write('<br>');
+
+                if (i < 0) {
+                    i = 10;
+                }
+
+            }
+            , 300)
+
+
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>
+
+<!-- ---------------------------------------------- -->
+
+<!-- 강사님 코드 -->
+
+<!-- <!DOCTYPE html>
+<html>
+
+<head>
+    <script>
+        let i = 10;
+        p1 = function () {
+
+            window.document.write('<h3>' + i + '<h3>');
+            // window.document.write('<br>');
+
+            if (i == 1) {
+                window.document.write('kkawng')
+                return;
+            }
+            i--;
+        }
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html> -->
